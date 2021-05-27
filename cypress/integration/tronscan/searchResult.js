@@ -1,0 +1,1 @@
+'https://tronscan.org/#/searchResult/btt?type=tokens&address'

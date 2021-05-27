@@ -1,0 +1,1 @@
+'https://tronscan.org/#/contracts/contract-compiler'
