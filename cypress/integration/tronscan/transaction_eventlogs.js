@@ -1,9 +1,8 @@
-'https://tronscan.org/#/transaction/' +
-'a86ca957dd2d5391b4f551fc04d8a61bad1f2d34e1020038a0933ee3aee22c9b/event-logs'
+'https://tronscan.org/#/transaction/a86ca957dd2d5391b4f551fc04d8a61bad1f2d34e1020038a0933ee3aee22c9b/event-logs'
 
-describe('', () => {
+describe('https://tronscan.org/#/transaction/a86ca957dd2d5391b4f551fc04d8a61bad1f2d34e1020038a0933ee3aee22c9b/event-logs', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/transaction/a86ca957dd2d5391b4f551fc04d8a61bad1f2d34e1020038a0933ee3aee22c9b/event-logs']
         a.forEach(function(item) {
             cy.server()
             cy.route({

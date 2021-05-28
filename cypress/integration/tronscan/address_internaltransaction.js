@@ -1,8 +1,8 @@
 'https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/internal-transactions'
 
-describe('', () => {
-    it('地址_分析', () => {
-        var a =['']
+describe('https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/internal-transactions', () => {
+    it('', () => {
+        var a =['https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/internal-transactions']
         a.forEach(function(item) {
             cy.server()
             cy.route({

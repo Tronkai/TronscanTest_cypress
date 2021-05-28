@@ -1,8 +1,8 @@
 'https://tronscan.org/#/contract/TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR/analysis'
 
-describe('', () => {
+describe('https://tronscan.org/#/contract/TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR/analysis', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/contract/TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR/analysis']
         a.forEach(function(item) {
             cy.server()
             cy.route({

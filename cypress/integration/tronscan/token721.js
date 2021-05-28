@@ -1,8 +1,8 @@
 'https://tronscan.org/#/token721/TLwu6VYaVBc5fsaTCWRHSdk71DNrZ6Vsj6'
 
-describe('', () => {
+describe('https://tronscan.org/#/token721/TLwu6VYaVBc5fsaTCWRHSdk71DNrZ6Vsj6', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/token721/TLwu6VYaVBc5fsaTCWRHSdk71DNrZ6Vsj6']
         a.forEach(function(item) {
             cy.server()
             cy.route({

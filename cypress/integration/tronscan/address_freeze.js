@@ -1,8 +1,8 @@
 'https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/freeze'
 
-describe('', () => {
-    it('地址_分析', () => {
-        var a =['']
+describe('https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/freeze', () => {
+    it('地址_冻结', () => {
+        var a =['https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/freeze']
         a.forEach(function(item) {
             cy.server()
             cy.route({

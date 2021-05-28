@@ -1,8 +1,8 @@
 'https://tronscan.org/#/token/1002000/transfers'
 
-describe('', () => {
+describe('https://tronscan.org/#/token/1002000/transfers', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/token/1002000/transfers']
         a.forEach(function(item) {
             cy.server()
             cy.route({

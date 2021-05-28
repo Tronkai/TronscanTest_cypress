@@ -1,8 +1,8 @@
 'https://tronscan.org/#/searchmore'
 
-describe('', () => {
+describe('https://tronscan.org/#/searchmore', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/searchmore']
         a.forEach(function(item) {
             cy.server()
             cy.route({

@@ -1,8 +1,8 @@
 'https://tronscan.org/#/blockchain/accounts'
 
-describe('', () => {
+describe('https://tronscan.org/#/blockchain/accounts', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/blockchain/accounts']
         a.forEach(function(item) {
             cy.server()
             cy.route({

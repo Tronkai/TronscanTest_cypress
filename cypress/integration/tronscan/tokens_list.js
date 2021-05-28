@@ -1,8 +1,8 @@
 'https://tronscan.org/#/tokens/list'
 
-describe('', () => {
+describe('https://tronscan.org/#/tokens/list', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/tokens/list']
         a.forEach(function(item) {
             cy.server()
             cy.route({

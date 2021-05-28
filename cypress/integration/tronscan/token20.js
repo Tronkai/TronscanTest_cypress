@@ -1,8 +1,8 @@
 'https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t'
 
-describe('', () => {
+describe('https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t']
         a.forEach(function(item) {
             cy.server()
             cy.route({

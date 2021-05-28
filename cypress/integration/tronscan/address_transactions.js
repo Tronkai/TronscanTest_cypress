@@ -1,8 +1,8 @@
 'https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/transactions'
 
-describe('', () => {
+describe('https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/transactions', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/address/TA9FnQrLGdgLW6cwBKue9DyqSBz1UNzUMR/transactions']
         a.forEach(function(item) {
             cy.server()
             cy.route({

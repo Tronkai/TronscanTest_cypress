@@ -1,8 +1,8 @@
 'https://tronscan.org/#/block/30118662'
 
-describe('', () => {
+describe('https://tronscan.org/#/block/30118662', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/block/30118662']
         a.forEach(function(item) {
             cy.server()
             cy.route({

@@ -1,8 +1,8 @@
 'https://tronscan.org/#/searchResult/btt?type=tokens&address'
 
-describe('', () => {
+describe('https://tronscan.org/#/searchResult/btt?type=tokens&address', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/searchResult/btt?type=tokens&address']
         a.forEach(function(item) {
             cy.server()
             cy.route({

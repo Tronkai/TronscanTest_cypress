@@ -1,8 +1,8 @@
 'https://tronscan.org/#/contracts/contracts'
 
-describe('', () => {
+describe('https://tronscan.org/#/contracts/contracts', () => {
     it('地址_分析', () => {
-        var a =['']
+        var a =['https://tronscan.org/#/contracts/contracts']
         a.forEach(function(item) {
             cy.server()
             cy.route({
